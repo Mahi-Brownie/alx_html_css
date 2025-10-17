@@ -1,3 +1,3 @@
-##  Figma (source file)
-> No direct Figma link was provided.  
-> Design reference was based on the images and ZIP assets shared for the project.
+# Headphones Project
+
+This is the headphones web page project. It is responsive, follows the Figma design screenshots, and includes hover effects and mobile layout.
