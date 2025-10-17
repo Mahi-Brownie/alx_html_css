@@ -1,0 +1,103 @@
+/* ========== RESET & VARIABLES ========== */
+:root {
+    --max-width: 1000px;
+    --link-hover: #FF6565;
+    --btn-hover-opacity: 0.9;
+    --font-main: 'Source Sans Pro', sans-serif;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: var(--font-main);
+    color: #111;
+    background-color: #fff;
+}
+
+/* ========== LAYOUT ========== */
+.container {
+    max-width: var(--max-width);
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.site-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 2rem;
+}
+
+.nav a {
+    margin-left: 1.5rem;
+    color: #111;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.nav a:hover,
+.nav a:active {
+    color: var(--link-hover);
+}
+
+/* ========== HERO SECTION ========== */
+.hero {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+}
+
+.hero-image {
+    width: 50%;
+    border-radius: 12px;
+}
+
+.hero-text {
+    flex: 1;
+}
+
+.hero-text h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+.hero-text p {
+    font-size: 1.1rem;
+    margin-bottom: 1.5rem;
+}
+
+.btn {
+    background-color: #111;
+    color: white;
+    padding: 0.75rem 1.25rem;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: opacity 0.2s ease;
+}
+
+.btn:hover,
+.btn:active {
+    opacity: var(--btn-hover-opacity);
+}
+
+/* ========== RESPONSIVE ========== */
+@media (max-width: 480px) {
+    .hero {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .hero-image {
+        width: 100%;
+    }
+
+    .nav {
+        display: none;
+        /* optional for simplicity */
+    }
+}
