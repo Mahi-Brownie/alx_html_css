@@ -1,20 +1,35 @@
-# Advanced CSS Project
+# Headphones Landing Page
 
-##Objective
-This project focuses on applying **advanced CSS styling** to an existing HTML structure using a design reference from **Figma**. 
+This is my implementation of the Headphones Landing Page project for the ALX Frontend track.  
+I built this directly from a Figma design, matching every section, color, font, and layout detail — because clean design is personal to me.
 
-## Technologies Used
-- HTML5
-- CSS3 (Flexbox, Grid, Variables)
-- Figma (Design Reference)
-- Google Fonts
+---
 
+## What This Project Is About
 
+The goal was simple: take a Figma design and turn it into a real, working web page using pure HTML and CSS.  
+No frameworks. No shortcuts. Just clean code and attention to detail.
 
-## ⚙️ Setup Instructions
+This project helped me focus on:
+- Responsive layouts  
+- Font management  
+- Hover and active states  
+- Centering content properly (the real challenge)
 
-1. Clone or download this repository.
-2. Open the project folder in your code editor.
-3. Open `index.html` in your browser to view the page.
-4. Modify `styles.css` to update design elements or layout.
-5. Ensure fonts (`Source Sans Pro` and `Spin Cycle OT`) are installed.
+---
+
+## Design Details
+
+- **Source file:** Figma (duplicate it to your drafts to explore layers and spacing)
+- **Fonts used:**
+  - [Source Sans Pro](https://fonts.google.com/specimen/Source+Sans+Pro)
+  - [Spin Cycle OT](https://www.cufonfonts.com/font/spin-cycle-ot)
+
+If the fonts don’t load, you can install them manually from those links.
+
+Some design values were in floats — I rounded them for simplicity.
+
+---
+
+## Folder Structure
+
